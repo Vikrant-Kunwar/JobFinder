@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Job Finder</string>
+    <string name="job_title">Job Title</string>
+    <string name="company_name">Company Name</string>
+    <string name="location">Location</string>
+    <string name="post_date">Post Date</string>
+    <string name="discription">Discription</string>
+    <string name="company_logo">Company Logo</string>
+    <string name="search">Search...</string>
+
+    <string-array name="jobProviders">
+        <item>Github</item>
+        <item>Search.GOV</item>
+    </string-array>
+
+    <string-array name="position">
+        <item>FullTime</item>
+        <item>Contract</item>
+    </string-array>
+</resources>

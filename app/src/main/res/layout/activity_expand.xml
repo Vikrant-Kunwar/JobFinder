@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+         android:transitionName="@string/company_logo"
+            android:id="@+id/image_company_logo"
+            android:src="@drawable/ic_launcher_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+    />
+    <TextView
+            android:id="@+id/expand_activity_job_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/job_title"
+            android:transitionName="@string/job_title"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/image_company_logo" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"/>
+    <TextView
+            android:id="@+id/expand_activity_company_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/company_name"
+            android:transitionName="@string/company_name"
+            android:textColor="#000"
+            android:textStyle="italic|bold"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            app:layout_constraintTop_toBottomOf="@+id/expand_activity_job_title"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp"/>
+    <TextView
+            android:id="@+id/expand_activity_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/location"
+            android:transitionName="@string/location"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            app:layout_constraintTop_toBottomOf="@+id/expand_activity_company_name"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp"/>
+    <TextView
+            android:id="@+id/expand_activity_post_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/post_date"
+            android:textColor="#000"
+            android:transitionName="@string/post_date"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            app:layout_constraintTop_toBottomOf="@+id/expand_activity_location"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp"
+    />
+    <TextView
+            android:id="@+id/expand_activity_discription"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/discription"
+            android:textColor="#000"
+
+            android:textSize="15sp"
+            android:layout_margin="10dp"
+
+            app:layout_constraintTop_toBottomOf="@+id/expand_activity_post_date"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp"
+    />
+
+
+</android.support.constraint.ConstraintLayout>
